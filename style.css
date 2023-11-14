@@ -7,27 +7,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* body {
-    position: fixed;
-    
-}
-
 .img {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
+    
+   float: left;
     z-index: -1;
     
 }
 
 .background-image {
     
-    min-width: 100%;
-    min-height: 100%;
+    margin: 20%;
+    left: 50px;
 }
-*/
+
 body {
     background-color: black;
+
 }
 
 .container-button {
@@ -47,7 +42,8 @@ button {
     padding: 10px;
     font-weight: bold;
     cursor: pointer;
-    width: 110px;
+    width: 150px;
+    height: 50px;
 }
 
 ul {
@@ -80,6 +76,7 @@ img {
 p {
     color: white;
     font-weight: bold;
+    padding-left: 10px;
 
 }
 
